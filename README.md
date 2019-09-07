@@ -4,7 +4,8 @@ Generating a gaussian distribution by utilizing the digits of pi and Python 3.6.
 
 ## Authors
 
-* **Deepak Ramalingam and Kirtan Shah** - (https://github.com/rdeepak2002)
+* **Deepak Ramalingam** - (https://github.com/rdeepak2002)
+* **Kirtan Shah** - (https://github.com/kirtan-shah)
 
 ## License
 
