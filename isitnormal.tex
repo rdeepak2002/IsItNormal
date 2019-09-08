@@ -60,7 +60,7 @@ The folowing paper describes the manner in which we generated a normal gaussian 
 
 \centerline{\textbf{Figure 1}}
 
-{\includegraphics[width=\textwidth]{histogram.png}}
+\includegraphics[width=\textwidth]{histogram.png}
 
 \section{Introduction}
 We received the first one million digits of pi as a text file from https://www.angio.net/pi/digits.html, then we used the Python 3.6 programming language to create the code seen in figure 2. This code reads the first million digits of pi as from the text file, then uses a for loop in order to average every 5 digits of pi. We chose this as our data because we are interested in relating statistics to the irrational number pi, which is used in wave functions and calculating circular properties. 
@@ -105,6 +105,20 @@ for i in range(0, limit, avgNum):
 {The shape of the data is unimodal and approximately symmetric with no skew. The mean is 4.42, the median is 4.40, and the mode is 4.00. The standard deviation is 1.09, the interquartile range is 1.60, and the range is 5.60. There are no outliers, but there is a gap between 6.5 and 7.}
 
 {In my distribution it is better to use mean and standard deviation because the mean reveals that 4.42 is the average digit since 4.5 it is the average value of the digits from 0 to 9. The standard deviation of 1.09 also reveals that the data is approximately a normal distribution since a normal distribution has a standard deviation of 1.}
+
+\section{Normal Model}
+
+{The Normal model, N(4.42, 1.09) is shown in figure 3. The graph is centered at the mean of our data and has the same scale as the histogram from figure 1. The 68-95-99.7\% rule can clearly be shown in the graph.}
+
+\centerline{\textbf{Figure 3}}
+
+{\includegraphics[width=\textwidth]{normdist.png}}
+
+\section{Comparison of Distribution to Normal Model}
+{68.28\% (1707/2500) of our data is within 1 standard deviation of the mean.}
+{95.45\% (1909/2000) of our data is within 2 standard deviations of the mean.}
+{99.73\% (374/375) of our data is within 3 standard deviations of the mean.}
+{These percentages are approximately equal to 68\%, 95\%, and 99.7\%. The original distribution has an approximately symmetrical distribution just like the Normal Model. Thus, the Normal Model is useful because the original distribution is similar to the Normal Model which allows us to make conclusions from the original data based off the Normal Model.}
 
 \bibliographystyle{unsrt}  
 
