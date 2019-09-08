@@ -2,6 +2,9 @@
 
 Generating a gaussian distribution by utilizing the digits of pi and Python 3.6.
 
+## Research Paper
+https://github.com/rdeepak2002/IsItNormal/blob/master/isitnormal.pdf
+
 ## Authors
 
 * **Deepak Ramalingam** - (https://github.com/rdeepak2002)
